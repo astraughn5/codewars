@@ -25,3 +25,7 @@ function between(a, b) {
 between(1,4) //output [1,2,3,4]
 between(0,3) //output [0,1,2,3]
 between(-2,1) //output [-2,-1,0,1]
+
+
+//other solution
+const between = (a, b) => Array.from(new Array(b-a+1), (_, i) => a + i);
