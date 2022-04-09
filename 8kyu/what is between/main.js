@@ -23,5 +23,5 @@ function between(a, b) {
   }
 
 console.log(between(1,4)) //output [1,2,3,4]
-between(0,3) //output [0,1,2,3]
+console.log(between(0,3)) //output [0,1,2,3]
 between(-2,1) //output [-2,-1,0,1]
