@@ -17,8 +17,9 @@ function between(a, b) {
 	let array = []
 	for (i = a; i <= b; i++){
 		array.push(i)
+		
 	}
-	console.log(array)
+	return array
   }
 
 console.log(between(1,4)) //output [1,2,3,4]
