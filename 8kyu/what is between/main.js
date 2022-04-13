@@ -14,6 +14,10 @@ function between(a, b) {
 	// need to create an empty array
 	// need to loop starting at a and push each number up to b
 	// need to return the array
+	let array = []
+	for (i = a; i <= b; i++){
+		
+	}
   }
 
 between(1,4) //output [1,2,3,4]
