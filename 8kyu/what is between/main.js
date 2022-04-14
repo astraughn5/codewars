@@ -10,7 +10,10 @@
 //R: return array including a & b
 //E:
 function between(a, b) {
-	// your code here
+	// take a starting number a and add each number to an array up to b 
+	// need to create an empty array
+	// need to loop starting at a and push each number up to b
+	// need to return the array
   }
 
 between(1,4) //output [1,2,3,4]
