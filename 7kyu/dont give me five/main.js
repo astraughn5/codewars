@@ -25,13 +25,14 @@ function dontGiveMeFive(start, end)
 	
 	
 	}
-dontGiveMeFive(1,9)
+
 
 // other solutions
-function dontGiveMeFive(start, end){
+function testDontGiveMeFive(start, end){
 	let res = [];
 	for (let i = start; i <= end; i++) {
 	  if (!i.toString().includes('5')) res.push(i);
 	}
 	return res.length;
   }
+  console.log(testDontGiveMeFive(4,17))
