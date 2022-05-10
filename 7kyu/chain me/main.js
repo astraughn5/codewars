@@ -22,13 +22,13 @@ function chain (input,fs){
 }  
 
 //solution
-function chain(v, fns) {
-	return fns.reduce(function(v, fn) { return fn(v) }, v);
-  }
+function chain(input, fs) {
+	return fs.reduce(function(input, fn) { return fn(input) }, input);
+   }
 
   // other solution
-  function chain(x, fns) {
-	return fns.reduce(function(x, fn) {
-	  return fn(x)
-	}, x)
+  function chain(input, fs) {
+	return fs.reduce(function(input, fn) {
+	  return fn(input)
+	}, input)
   }
