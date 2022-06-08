@@ -29,7 +29,7 @@ function isRubyComing1(list) {
 
 //better solution
 function isRubyComing2(list) {
-	return list.some(e => e.language === 'Ruby');
+	return list.some(e => {e.language === 'Ruby'});
 }
 
 
@@ -49,3 +49,4 @@ var list2 = [
 
 console.log(isRubyComing(list2)) //output = false
 console.log(isRubyComing1(list2))
+console.log(isRubyComing2(list2))
