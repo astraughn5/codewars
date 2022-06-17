@@ -1,5 +1,6 @@
 //receive an array of objects where the key and value are string or integers that follow the same format. they are the same size
 //return an array of the oldest developer and both if there are two
+//Big O guess: sorting = O of N^2 filter = O of N
 
 
 
